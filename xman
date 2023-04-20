@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html> 
+<body> 
+
+<video width="400" controls>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+
+<p>
+Video courtesy of 
+<a href="https://www.bigbuckbunny.org/" target="_blank">Big Bunny</a>.
+</p>
+
+</body> 
+</html>
+
+[root@ip-172-31-20-60 html]# cat>index.html
+<!DOCTYPE html>
+<html>
+<body>
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+
+</body>
+</html>
